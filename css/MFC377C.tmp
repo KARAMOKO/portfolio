@@ -1,0 +1,66 @@
+ /* General classes for page */
+
+body {
+  font-family: 'Open Sans';
+}
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	padding:30px 0px; 
+}
+
+.logo{
+	display:flex;
+	justify-content:flex-start;
+}
+
+li a{
+	color:#1abc9c;
+}
+
+li a:hover{
+	color:#118971;
+}
+
+118971
+
+.dropdown-menu a{
+	color:#1abc9c;
+}
+
+h1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:200px;
+}
+.bouton{
+	width:200px;
+	display:flex;
+	justify-content:center;
+}
+
+.btn-short-green{
+  color: white;
+  padding:15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 1s ease;
+}
+.btn-short-green:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+.footer{
+	color:#118971;
+	display:flex;
+	justify-content:center;
+	padding:150px;
+}
+
+

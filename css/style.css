@@ -1,0 +1,159 @@
+ /* General classes for page */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+/* How to override the default Bootstrap navbar */
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+
+
+.wrapper{
+  background-image: url(../images/banner.jpg) ;
+  background-size:cover;
+  height:800px;
+  text-align:center;
+  padding:250px;
+  color:white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+
+}
+
+
+.content h1{
+	 font-size: 72px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-weight: normal;
+	
+	}
+
+
+
+.content h1{
+	 
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-weight: normal;
+  text-align: center;
+  font-size: 65px;
+  color: white;
+	
+	}
+
+
+.content h2{
+	  display: inline-block;
+  padding-bottom: 100px;
+  margin-bottom: 2em;
+	
+}
+
+.footer {
+  
+  background-color: black;
+  color:white;
+  padding:100px;
+}
+
+.footer a {
+  color: #cccccc;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.social a {
+  font-size: 24px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+
+.btn-short-green{
+  color:white;
+  padding:15px;
+  border-radius: 2px;
+  background:#035949;
+  border: 1px solid white;
+  transition: background 1s ease;
+  margin-bottom:2em;
+  
+
+}
+.btn-short-green:hover {
+  opacity: 1;
+  background: #219653 ;
+  text-decoration: none;
+  
+  color: white;
+}
+
+
+.vertical-spacer {
+  height: 8em;
+}
+
+.col-xs-3 text-center{
+	display:flex;
+	align-items: flex-end;
+	justify-content:center;
+	font-weight:bold;
+	}
+
+.text-center h3{
+	
+	font-weight:bold;
+	}
+
+.about_us_p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+
+.about_title h2{
+   font-weight:bold;
+}
+
+.single_progress_bar .progress {
+height: 1px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: #219653 ;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.single_progress_bar .progress-bar {
+background-color: #FFFFFF;
+}
+.single_progress_bar h2{
+	
+	font-size: 14px;
+	font-weight: 400;
