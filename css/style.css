@@ -163,17 +163,18 @@ background-color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 400;
 }
+/* mon book */
 
-/* contact*/
-
-h1{
-  display: flex;
+h1.galerie-h1{
+  font-weight:bold;
+  text-align: center;
 }
+
+
+/* contact */
 
 h1.contact-h1{
 	font-weight:bold;
-
-  justify-content: flex-start;
 }
 
 .contact-form{
