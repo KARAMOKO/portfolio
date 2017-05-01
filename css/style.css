@@ -29,7 +29,7 @@ body {
   color: white;
 }
 
-
+/* wrapper */
 
 .wrapper{
   background-image: url(../images/banner.jpg) ;
@@ -47,19 +47,19 @@ body {
 	 font-size: 72px;
   text-shadow: 0 0 20px rgba(0, 0, 0, .8);
   font-weight: normal;
-	
+
 	}
 
 
 
 .content h1{
-	 
+
   text-shadow: 0 0 20px rgba(0, 0, 0, .8);
   font-weight: normal;
   text-align: center;
   font-size: 65px;
   color: white;
-	
+
 	}
 
 
@@ -67,11 +67,32 @@ body {
 	  display: inline-block;
   padding-bottom: 100px;
   margin-bottom: 2em;
-	
+
 }
 
+.btn-short-green{
+  color:white;
+  padding:15px;
+  border-radius: 2px;
+  background:#035949;
+  border: 1px solid white;
+  transition: background 1s ease;
+  margin-bottom:2em;
+
+
+}
+.btn-short-green:hover {
+  opacity: 1;
+  background: #219653 ;
+  text-decoration: none;
+
+  color: white;
+}
+
+/* footer */
+
 .footer {
-  
+
   background-color: black;
   color:white;
   padding:100px;
@@ -94,29 +115,13 @@ body {
 }
 
 
-.btn-short-green{
-  color:white;
-  padding:15px;
-  border-radius: 2px;
-  background:#035949;
-  border: 1px solid white;
-  transition: background 1s ease;
-  margin-bottom:2em;
-  
-
-}
-.btn-short-green:hover {
-  opacity: 1;
-  background: #219653 ;
-  text-decoration: none;
-  
-  color: white;
-}
 
 
 .vertical-spacer {
   height: 8em;
 }
+
+/* about */
 
 .col-xs-3 text-center{
 	display:flex;
@@ -126,7 +131,7 @@ body {
 	}
 
 .text-center h3{
-	
+
 	font-weight:bold;
 	}
 
@@ -154,6 +159,45 @@ box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
 background-color: #FFFFFF;
 }
 .single_progress_bar h2{
-	
+
 	font-size: 14px;
 	font-weight: 400;
+}
+
+/* contact*/
+
+h1{
+  display: flex;
+}
+
+h1.contact-h1{
+	font-weight:bold;
+
+  justify-content: flex-start;
+}
+
+.contact-form{
+border: 1px solid #d1d1d1;
+padding: 30px;
+}
+.contact-form .form-control{
+
+height: 43px;
+border-radius: 0px;
+margin-bottom: 20px;
+border: 1px solid black;
+}
+.contact-form #message{
+	height: 104px;
+}
+.form_submit{
+width: 100%;
+background: black;
+border-radius: 0px;
+color: #fff;
+padding-top: 13px;
+padding-bottom: 10px;
+transition: all 1s;
+}
+
+
