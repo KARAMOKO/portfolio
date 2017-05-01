@@ -29,7 +29,7 @@ body {
   color: white;
 }
 
-
+/* wrapper */
 
 .wrapper{
   background-image: url(../images/banner.jpg) ;
@@ -70,6 +70,27 @@ body {
 	
 }
 
+.btn-short-green{
+  color:white;
+  padding:15px;
+  border-radius: 2px;
+  background:#035949;
+  border: 1px solid white;
+  transition: background 1s ease;
+  margin-bottom:2em;
+  
+
+}
+.btn-short-green:hover {
+  opacity: 1;
+  background: #219653 ;
+  text-decoration: none;
+  
+  color: white;
+}
+
+/* footer */
+
 .footer {
   
   background-color: black;
@@ -94,29 +115,13 @@ body {
 }
 
 
-.btn-short-green{
-  color:white;
-  padding:15px;
-  border-radius: 2px;
-  background:#035949;
-  border: 1px solid white;
-  transition: background 1s ease;
-  margin-bottom:2em;
-  
-
-}
-.btn-short-green:hover {
-  opacity: 1;
-  background: #219653 ;
-  text-decoration: none;
-  
-  color: white;
-}
 
 
 .vertical-spacer {
   height: 8em;
 }
+
+/* about */
 
 .col-xs-3 text-center{
 	display:flex;
@@ -157,3 +162,36 @@ background-color: #FFFFFF;
 	
 	font-size: 14px;
 	font-weight: 400;
+}
+
+/* contact*/
+
+.contact-h1{
+	font-weight:bold;
+}
+
+.contact-form{
+border: 1px solid #d1d1d1;
+padding: 30px;
+}
+.contact-form .form-control{
+	
+height: 43px;
+border-radius: 0px;
+margin-bottom: 20px;
+border: 1px solid black;
+}
+.contact-form #message{
+	height: 104px;
+}
+.form_submit{
+width: 100%;
+background: black;
+border-radius: 0px;
+color: #fff;
+padding-top: 13px;
+padding-bottom: 10px;
+transition: all 1s;	
+}
+
+
