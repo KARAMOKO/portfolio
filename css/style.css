@@ -165,7 +165,9 @@ background-color: #FFFFFF;
 }
 /* mon book */
 
-h1.galerie-h1{
+
+
+h1.galerie {
   font-weight:bold;
   text-align: center;
 }
@@ -200,5 +202,7 @@ padding-top: 13px;
 padding-bottom: 10px;
 transition: all 1s;
 }
+
+
 
 
