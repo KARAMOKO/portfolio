@@ -76,9 +76,51 @@ body {
 	  display: inline-block;
   padding-bottom: 100px;
   margin-bottom: 2em;
+<<<<<<< HEAD
+=======
+	
+}
+
+.btn-short-green{
+  color:white;
+  padding:15px;
+  border-radius: 2px;
+  background:#035949;
+  border: 1px solid white;
+  transition: background 1s ease;
+  margin-bottom:2em;
+  
+
+}
+.btn-short-green:hover {
+  opacity: 1;
+  background: #219653 ;
+  text-decoration: none;
+  
+  color: white;
+}
+
+/* footer */
+
+.footer {
+  
+  background-color: black;
+  color:white;
+  padding:100px;
+}
+
+.footer a {
+  color: #cccccc;
+}
+
+.footer a:hover {
+  color: white;
+}
+>>>>>>> b73942f437cf8835c2854d99709ef2ca9cb724a0
 
 }
 
+<<<<<<< HEAD
 .btn-short-green{
   color:white;
   padding:15px;
@@ -97,6 +139,13 @@ body {
 
   color: white;
 }
+=======
+.social a:hover {
+  text-decoration: none;
+}
+
+
+>>>>>>> b73942f437cf8835c2854d99709ef2ca9cb724a0
 
 /* footer */
 
@@ -169,6 +218,7 @@ background-color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 400;
 }
+<<<<<<< HEAD
 /* mon book */
 
 
@@ -191,12 +241,25 @@ h1.contact-h1{
 
 }
 
+=======
+
+/* contact*/
+
+.contact-h1{
+	font-weight:bold;
+}
+
+>>>>>>> b73942f437cf8835c2854d99709ef2ca9cb724a0
 .contact-form{
 border: 1px solid #d1d1d1;
 padding: 30px;
 }
 .contact-form .form-control{
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> b73942f437cf8835c2854d99709ef2ca9cb724a0
 height: 43px;
 border-radius: 0px;
 margin-bottom: 20px;
@@ -212,6 +275,7 @@ border-radius: 0px;
 color: #fff;
 padding-top: 13px;
 padding-bottom: 10px;
+<<<<<<< HEAD
 transition: all 1s;
 }
 
@@ -219,3 +283,9 @@ transition: all 1s;
 
 
 
+=======
+transition: all 1s;	
+}
+
+
+>>>>>>> b73942f437cf8835c2854d99709ef2ca9cb724a0
