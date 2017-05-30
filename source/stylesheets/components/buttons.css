@@ -1,0 +1,19 @@
+/* buttons */
+
+.btn-short-green{
+  color:white;
+  padding:15px;
+  border-radius: 2px;
+  background:#039b91;
+  border: 1px solid white;
+  transition: background 1s ease;
+  margin-bottom:2em;
+
+
+}
+.btn-short-green:hover {
+  opacity: 1;
+  background:$green-light;
+  text-decoration: none;
+  color: white;
+}

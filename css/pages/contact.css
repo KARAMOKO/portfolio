@@ -1,0 +1,48 @@
+/* contact */
+
+/* contact */
+
+h1.contact-h1{
+	font-weight:bold;
+}
+
+
+.contact{
+  height: 800px;
+
+}
+
+.contact-form{
+border: 1px solid #d1d1d1;
+padding: 30px;
+}
+.contact-form .form-control{
+
+height: 43px;
+border-radius: 0px;
+margin-bottom: 20px;
+border: 1px solid black;
+}
+.contact-form #message{
+	height: 104px;
+}
+
+.btn-long-green{
+  color:white;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-radius: 0px;
+  background:#039b91;
+  border: 1px solid white;
+  transition: background 1s ease;
+  margin-bottom:2em;
+
+
+}
+.btn-long-green:hover {
+  opacity: 1;
+  background:#01B3A9;
+  text-decoration: none;
+  color: white;
+}

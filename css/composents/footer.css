@@ -1,0 +1,34 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+/* footer */
+
+.footer {
+
+
+  color: rgba(0, 0, 0, 0.3);
+  padding:50px;
+}
+
+.footer a {
+  color:  rgba(0, 0, 0, 0.3);
+}
+
+.footer a:hover {
+  color: #01B3A9;
+}
+
+.social a {
+  font-size: 24px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+.vertical-spacer {
+  height: 8em;
+}

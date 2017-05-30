@@ -1,0 +1,65 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans");
+$base-font: "Open Sans", "Helvetica", "sans-serif";
+$header-font: "Montserrat", "Helvetica", "sans-serif";
+
+// Local fonts (uncomment following lines)
+// @font-face {
+//   font-family: "Font Name";
+//   src: font-url('FontFile.eot');
+//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+//        font-url('FontFile.woff') format('woff'),
+//        font-url('FontFile.ttf') format('truetype')
+// }
+// $my-font: "Font Name";
+
+// Font-size and line-height
+$base-size: 16px;
+$base-height: 1.4;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+// Scheme
+
+$green-light:#039b91;
+$green-dark:darken($green-light, 20%);
+$gray:rgba(0, 0, 0, 0.3);
+$shadow:0 0 20px rgba(0, 0, 0, .8);
+
+
+/* -------------------------------------
+ * links
+ * ------------------------------------- */
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+
+a {
+  color:$gray;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color:$green-dark;
+  text-decoration: none;
+}
+
+
+
+.vertical-spacer {
+  height: 8em;
+}

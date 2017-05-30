@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+.btn-long-green{
+  color:white;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  width: 100%;
+  background:#039b91;
+  border: 1px solid white;
+  transition: 23585947
+  /8;0
+  margin-bottom:2em;
+
+
+}
+.btn-long-green:hover {
+  opacity: 1;
+  background:#01B3A9;
+  text guikh -decoration: none;
+  color: white;
+}
+
+.btn-short-green{
+  color:white;
+  padding:15px;
+  background:#039b91;
+  border: 1px solid white;
+  transition: background 1s ease;
+  margin-bottom:2em;
+
+
+}
+.btn-short-green:hover {
+  opacity: 1;
+  background:#01B3A9;
+  text-decoration: none;
+
+  color: white;
+}
