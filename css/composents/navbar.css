@@ -18,6 +18,6 @@
 .navbar-transparent .navbar-nav > .open > a,
 .navbar-transparent .navbar-nav > .open > a:hover,
 .navbar-transparent .navbar-nav > .open > a:focus {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color:#01B3A9;
   color: white;
 }
